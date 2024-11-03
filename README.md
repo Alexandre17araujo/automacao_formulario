@@ -4,11 +4,13 @@
  - De uma forma resumida. O projeto tem o objetivo simples de preencher um formulário usando algumas técnicas de localização de elementos por imagem.
 
 
-#### Foi usado a linguagem de programação PYTHON e, suas bibliotecas: ![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
+#### Foi usado a linguagem de programação PYTHON e, suas bibliotecas: 
+![Python](https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 
-#### Sistema Operacional Linux Mint: ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+#### Sistema Operacional Linux Mint:
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 
 ## Preparação hambiente.
