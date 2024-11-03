@@ -45,5 +45,7 @@ posicoes_encontradas = list(pyautogui.locateAllOnScreen('imagens/inserir.png'))
 x_center = posicoes_encontradas[0].left + posicoes_encontradas[0].width / 2
 y_center = posicoes_encontradas[0].top + posicoes_encontradas[0].height / 2
 resultado = f'x={x_center}, y={y_center}' 
-pyautogui.click(x=532.0, y=389.5)    
+print(resultado)
+pyautogui.click(x=532.0, y=426.5)    
 
+# ,confidence=0.7

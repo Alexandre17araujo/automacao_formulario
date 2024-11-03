@@ -15,11 +15,12 @@ for i in range(0, 3):
 sleep(0.5)
 pyautogui.press('enter')
 sleep(2)
-enviar_outra_resposta = pyautogui.locateCenterOnScreen('imagens/enviar_resposta.png')
+enviar_outra_resposta = pyautogui.locateCenterOnScreen('imagens/enviar_resposta.png', confidence=0.7)
+sleep(2)
 pyautogui.click(enviar_outra_resposta)
-sleep(1)
 
 def executar():
+    sleep(1)
     for linha in lista_nomes.index:
         sleep(0.5)
         pyautogui.press('tab')
@@ -41,7 +42,7 @@ def executar():
         sleep(0.2)
         pyautogui.press('enter')
         sleep(2)
-        enviar_outra_resposta = pyautogui.locateCenterOnScreen('imagens/enviar_resposta.png')
+        enviar_outra_resposta = pyautogui.locateCenterOnScreen('imagens/enviar_resposta.png', confidence=0.7)
         sleep(1)
         pyautogui.click(enviar_outra_resposta)
 
