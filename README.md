@@ -25,7 +25,7 @@
 
 ## Execução
 ```
-   - https://github.com/Alexandre17araujo/automacao_formulario.git
+   - git clone https://github.com/Alexandre17araujo/automacao_formulario.git
    - cd automacao_formulario/
    - python3.11 automacao.py
 ```
