@@ -6,7 +6,7 @@ import pandas as pd
 link_formulario = 'https://forms.office.com/r/PwS0k9yyqs?origin=lprLink'
 lista_nomes = pd.read_excel('lista_contatos.xlsx')
 
-subprocess.run(['google-chrome', link_formulario])
+subprocess.Popen(['google-chrome', link_formulario])
 sleep(5)
 for i in range(0, 3):
     sleep(0.5)
